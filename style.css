@@ -1,14 +1,23 @@
-/* surely there is a better way to assign css attributes to those nested  */
+* {
+    font-family: Lato, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
 ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333
+    background-color: slategray;
+    border-radius: 10px;
 }
 
 ul.nav li {
-    float: left
+    float: left;
+    background-color: lightblue;
 }
 
 ul.nav li a {
@@ -21,5 +30,5 @@ ul.nav li a {
 
 /* i think this applies for all a links  */
 li a:hover {
-    background-color: #111111
+    background-color: #111111;
 }
