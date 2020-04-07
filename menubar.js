@@ -1,6 +1,6 @@
 document.getElementById("menubar").innerHTML =
 '<ul class="nav">'+
-    '<li class="home"><a href="index.html"><u>Hello!<u></a></li>' + 
+    '<li class="home"><a href="https://chroosh.github.io"><u>Hello!<u></a></li>' + 
     // it's not time yet
     // '<li><a href="contact.html">Contact</a></li>' +
     // '<li><a href="videos.html">Videos</a></li>' +
